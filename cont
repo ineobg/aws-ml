@@ -1,1 +1,23 @@
+The Python scikit-learn library has tools that can handle the implementation of the model training algorithm.
 
+One of the most common evaluation metrics in a regression scenario is called root mean square or RMS.
+
+Continuous: Floating-point values with an infinite range of possible values.
+The opposite of categorical or discrete values, which take on a limited number of possible values.
+Hyperplane: A mathematical term for a surface that contains more than two planes.
+Plane: A mathematical term for a flat surface (like a piece of paper) on which two points can be joined by a straight line.
+Regression: A common task in supervised machine learning.
+
+
+Unsupervised learning using clustering:
+
+Data vectorization: A process that converts non-numeric data into a numerical format so that it can be used by a machine learning model.
+
+A common cluster-finding model called k-means.
+You can change a model parameter, k, to be equal to how many clusters the model will try to find in your dataset.
+During the model evaluation phase, you plan on using a metric to find which value for k is most appropriate.
+In machine learning, numerous statistical metrics or methods are available to evaluate a model.
+Silhouette coefficient: A score from -1 to 1 describing the clusters found during modeling.
+A score near zero indicates overlapping clusters, and scores less than zero indicate data points assigned to incorrect clusters. 
+A score approaching 1 indicates successful identification of discrete non-overlapping clusters.
+This metric describes how well your data was clustered by the model.
