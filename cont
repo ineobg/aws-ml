@@ -21,3 +21,12 @@ Silhouette coefficient: A score from -1 to 1 describing the clusters found durin
 A score near zero indicates overlapping clusters, and scores less than zero indicate data points assigned to incorrect clusters. 
 A score approaching 1 indicates successful identification of discrete non-overlapping clusters.
 This metric describes how well your data was clustered by the model.
+
+CNN (convolutional neural network)
+Neural networks - a collection of very simple models connected together.
+These simple models are called neurons, and the connections between these models are trainable model parameters called weights.
+Convolutional neural networks are a special type of neural network particularly good at processing images.
+Model Evaluation - there are many different statistical metrics you can use to evaluate your model.
+You can think of precision as answering the question, "Of all predictions of a spill, how many were right?" 
+and recall as answering the question, "Of all actual spills, how many did we detect?"
+Model Inference - the model can be deployed on a system that enables you to run machine learning workloads such as AWS Panorama.
