@@ -1,1 +1,50 @@
+In supervised learning, every training sample from the dataset has a corresponding label or output value associated with it. 
+As a result, the algorithm learns to predict labels or output values. 
+LABELED DATA - classification, regression...
+    
+In unsupervised learning, there are no labels for the training data. 
+A machine learning algorithm tries to learn the underlying patterns or distributions that govern the data. 
+UNLABELED DATA - clustering (naturally occuring groupings)...
+    
+In reinforcement learning, the algorithm figures out which actions to take in a situation to maximize a reward (in the form of a number) 
+on the way to reaching a specific goal. This is a completely different approach than supervised and unsupervised learning.
+
+In machine learning, the problem solver abstracts away part of their solution as a flexible component called a model, 
+and uses a special program called a model training algorithm to adjust that model to real-world data. 
+The result is a trained model which can be used to predict outcomes that are not part of the data set used to train it.
+
+Nearly all tasks solved with machine learning involve three primary components:
+
+    A machine learning model - a block of code or framework that can be modified to solve different but related problems based on the data provided.
+    A model training algorithm - changes are made and the iteration continues until the model is evaluated to meet the goals.
+    A model inference algorithm - to generate predictions using the trained model.
+
+
+Step one: define the problem - a very specific task
+Labeled data
+  A categorical label has a discrete set of possible values.
+  A continuous (regression) label does not have a discrete set of possible values, which often means you are working with numerical data.
+
+Step two: build a dataset
+Impute is a common term referring to different statistical tools which can be used to calculate missing values from your dataset.
+Outliers are data points that are significantly different from others in the same sample.
+SKLEARN LIBRARY
+
+Step three: model training
+Randomly splitting dataset: training and test - to test against bias-variance trade-off
+The model training algorithm iteratively updates a model's parameters (weights, biases) to minimize some loss function. 
+Hyperparameters are settings on the model which are not changed during training but can affect how quickly or how reliably the model trains, 
+such as the number of clusters the model should identify.
+Model parameters are settings or configurations the training algorithm can update to change how the model behaves.
+
+
+
+
+
+
+
+
+
+
+
 
