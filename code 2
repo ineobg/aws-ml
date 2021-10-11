@@ -1,1 +1,53 @@
+A successful GIT branching model:
+https://nvie.com/posts/a-successful-git-branching-model/
+
+Version control:
+https://towardsdatascience.com/version-control-ml-model-4adb2db5f87c
+https://algorithmia.com/blog/how-to-version-control-your-production-machine-learning-models
+
+
+Problems that could occur in data science aren’t always easily detectable; 
+you might have values being encoded incorrectly, features being used inappropriately, or unexpected data breaking assumptions.
+
+Testing
+In an industry setting, before deploying.
+(Test Driven Development (TDD) - write tests before developing code to implement tasks)
+https://docs.python-guide.org/writing/tests/
+
+Unit test - small block of code, usually a function
+isolated from the rest of your program, and thus, no dependencies are involved. They don't require access to databases, APIs, or other external sources of information.
+To install pytest, run pip install -U pytest in your terminal.
+Create a test file starting with test_.
+Define unit test functions that start with test_ inside the test file.
+Enter pytest into your terminal in the directory of your test file and it detects these tests for you.
+
+Assert Statement
+https://stackoverflow.com/questions/5142418/what-is-the-use-of-assert-in-python
+
+To show that all the parts of our program work with each other properly, communicating and transferring data between them correctly, we use integration tests.
+
+
+Logging - the process of recording messages to describe events that have occurred while running your software
+Appropriate level for logging
+Debug: Use this level for anything that happens in the program. 
+Error: Use this level to record any error that occurs. 
+Info: Use this level to record all actions that are user driven or system specific, such as regularly scheduled operations.
+
+
+Code Reviews
+Catch errors, ensure readability, check standards are met, share knowledge
+e.g. Are there loops or other steps I can vectorize?
+https://www.kevinlondon.com/2015/05/05/code-review-best-practices.html
+Tip: Use a code linter - automatically check for coding standards and PEP 8 guidelines
+
+
+
+
+
+
+
+
+
+
+
 
