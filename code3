@@ -1,0 +1,21 @@
+Magic methods
+Overriding default Python behavior
+e.g. combining two Gaussian distributions
+
+Inhertiance
+Parent class
+Children classes inheriting attributes and methods
+def childclass(parentclass):
+  def __innit__ (self, ):
+    parentclass.__innit__(self, )
+    self.newchildmethod = new_child_method
+Can also override any of the parent methods
+
+Organizing into modules
+
+Advanced OOP topics
+https://realpython.com/instance-class-and-static-methods-demystified/
+https://www.python-course.eu/python3_class_and_instance_attributes.php
+https://easyaspython.com/mixins-for-fun-and-profit-cb9962760556
+https://realpython.com/primer-on-python-decorators/
+
