@@ -12,10 +12,42 @@ def childclass(parentclass):
 Can also override any of the parent methods
 
 Organizing into modules
+Refactoring code into invidual modules
 
 Advanced OOP topics
 https://realpython.com/instance-class-and-static-methods-demystified/
 https://www.python-course.eu/python3_class_and_instance_attributes.php
 https://easyaspython.com/mixins-for-fun-and-profit-cb9962760556
 https://realpython.com/primer-on-python-decorators/
+
+Making a package
+A collection of Python modules
+Python package also needs an __init__.py
+pip install (package manager) of PyPI
+If you want to develop a package locally on your computer, you should consider setting up a virtual environment.
+
+
+Python environments
+A silo-ed Python installation apart from your main Python installation.
+Can install packages and delete the virtual environment without affecting your main Python installation.
+
+CONDA
+Package manager
+For instance, typing conda install numpy installs the numpy package. 
+The command line code looks something like the following:
+  conda create --name environmentname
+  source activate environmentname
+  conda install numpy
+
+To use venv and pip, the commands look something like the following:
+  python3 -m venv environmentname
+  source environmentname/bin/activate
+  pip install numpy
+  
+MIT license.txt
+
+
+
+
+
 
