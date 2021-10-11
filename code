@@ -1,1 +1,33 @@
+Modular code: Code that is logically broken up into functions and modules. 
+Modular production-quality code that makes your code more organized, efficient, and reusable.
+
+Refactoring: Restructuring your code to improve its internal structure without changing its external functionality. 
+This gives you a chance to clean and modularize your program after you've got it working.
+
+PEP 8 guidelines for code layout:
+https://www.python.org/dev/peps/pep-0008/?#code-lay-out
+
+Documentation: Additional text or illustrated information that comes with or is embedded in the code of software.
+Helpful for clarifying complex parts of code, making your code easier to navigate, and quickly conveying how and why different components of your program are used.
+    Several types of documentation can be added at different levels of your program:
+        Inline comments - line level following hash symbols
+        Docstrings - module and function level surrounded by tripple quotes
+        Project documentation - project level - application or package, explaining function, dependencies, instructions
+
+
+Version Control in Data Science
+
+You have a local version of this repository on your laptop, and to get the latest stable version, you pull from the develop branch.
+
+    Switch to the develop branch
+    git checkout develop
+
+    Pull the latest changes in the develop branch
+    git pull
+    
+When you start working on this demographic feature, you create a new branch called demographic, and start working on your code in this branch.
+
+    Create and switch to a new branch called demographic from the develop branch
+    git checkout -b demographic
+
 
